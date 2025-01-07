@@ -1,0 +1,3 @@
+Il login avviene con successo, ma sembra che la chiamata per la restituzione dei dettagli abbia uqalche problema.
+Bisogna verificare il perchè la pagina restituisce l'errore come se il login non fosse andato a buon fine e capire perchè i dettagli non riescono ad essere passati correttamente.
+Non sembra essere stata implementata la logica che recupera il path del logo. Verificare in che modo vengono legati user e company, potrebbe essere utile o addirittura essenziale creare in Users il campo company con l'id della company utilizzata come chiave esterna
